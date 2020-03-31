@@ -1,4 +1,4 @@
-function sumFibs(num) {
+const sumFibs = (num) => {
   let num1 = 0;
   let num2 = 1;
   let sum = 0;
@@ -13,6 +13,8 @@ function sumFibs(num) {
     num2 = nextFib;
   }
   return sum;
-}
+};
 
-export { sumFibs };
+export {
+  sumFibs
+};
