@@ -1,5 +1,7 @@
-function dropElements(elements, predicate) {
+const dropElements = (elements, predicate) => {
   return elements.filter(predicate);
-}
+};
 
-export { dropElements };
+export {
+  dropElements
+};

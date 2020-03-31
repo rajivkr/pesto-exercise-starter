@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 const stringCompareFunction = (a, b) => {
   const itemA = a[1].toUpperCase();
   const itemB = b[1].toUpperCase();
@@ -12,15 +11,17 @@ const stringCompareFunction = (a, b) => {
   return comparison;
 };
 
-const updateInventory = (arr1, arr2) => {
-  arr2.forEach(secondArrElement => {
-    const firstArrPosition = arr1
+const updateInventory = (cart1, cart2) => {
+  cart2.forEach(secondArrElement => {
+    const firstArrPosition = cart1
       .map(firstArrElement => firstArrElement[1])
       .indexOf(secondArrElement[1]);
-    if (firstArrPosition === -1) arr1.push(secondArrElement);
-    else arr1[firstArrPosition][0] += secondArrElement[0];
+    if (firstArrPosition === -1) cart1.push(secondArrElement);
+    else cart1[firstArrPosition][0] += secondArrElement[0];
   });
-  return arr1.sort(stringCompareFunction);
+  return cart1.sort(stringCompareFunction);
 };
 
-export { updateInventory };
+export {
+  updateInventory
+};

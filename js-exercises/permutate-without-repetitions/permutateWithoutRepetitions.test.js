@@ -33,9 +33,9 @@ describe('permutateWithoutRepetitions', () => {
     expect(permutations3.length).toBe(factorial(3));
     expect(permutations3).toEqual([
       ['A', 'B', 'C'],
+      ['A', 'C', 'B'],
       ['B', 'A', 'C'],
       ['B', 'C', 'A'],
-      ['A', 'C', 'B'],
       ['C', 'A', 'B'],
       ['C', 'B', 'A']
     ]);
@@ -44,27 +44,27 @@ describe('permutateWithoutRepetitions', () => {
     expect(permutations4.length).toBe(factorial(4));
     expect(permutations4).toEqual([
       ['A', 'B', 'C', 'D'],
+      ['A', 'B', 'D', 'C'],
+      ['A', 'C', 'B', 'D'],
+      ['A', 'C', 'D', 'B'],
+      ['A', 'D', 'B', 'C'],
+      ['A', 'D', 'C', 'B'],
       ['B', 'A', 'C', 'D'],
+      ['B', 'A', 'D', 'C'],
       ['B', 'C', 'A', 'D'],
       ['B', 'C', 'D', 'A'],
-      ['A', 'C', 'B', 'D'],
-      ['C', 'A', 'B', 'D'],
-      ['C', 'B', 'A', 'D'],
-      ['C', 'B', 'D', 'A'],
-      ['A', 'C', 'D', 'B'],
-      ['C', 'A', 'D', 'B'],
-      ['C', 'D', 'A', 'B'],
-      ['C', 'D', 'B', 'A'],
-      ['A', 'B', 'D', 'C'],
-      ['B', 'A', 'D', 'C'],
       ['B', 'D', 'A', 'C'],
       ['B', 'D', 'C', 'A'],
-      ['A', 'D', 'B', 'C'],
+      ['C', 'A', 'B', 'D'],
+      ['C', 'A', 'D', 'B'],
+      ['C', 'B', 'A', 'D'],
+      ['C', 'B', 'D', 'A'],
+      ['C', 'D', 'A', 'B'],
+      ['C', 'D', 'B', 'A'],
       ['D', 'A', 'B', 'C'],
+      ['D', 'A', 'C', 'B'],
       ['D', 'B', 'A', 'C'],
       ['D', 'B', 'C', 'A'],
-      ['A', 'D', 'C', 'B'],
-      ['D', 'A', 'C', 'B'],
       ['D', 'C', 'A', 'B'],
       ['D', 'C', 'B', 'A']
     ]);

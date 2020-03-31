@@ -1,4 +1,4 @@
-function balancedBraces(inputString) {
+const balancedBraces = (inputString) => {
   const outputStack = [];
 
   const openingBrace = {
@@ -15,10 +15,14 @@ function balancedBraces(inputString) {
     if (openingBrace[currentChar]) {
       outputStack.push(currentChar);
     } else if (closingBrace.indexOf(currentChar) >= 0) {
-      if (openingBrace[outputStack.pop()] !== currentChar) return false;
+      if (openingBrace[outputStack.pop()] !== currentChar) {
+        return false;
+      }
     }
   }
   return outputStack.length === 0;
-}
+};
 
-export { balancedBraces };
+export {
+  balancedBraces
+};

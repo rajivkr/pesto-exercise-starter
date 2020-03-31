@@ -1,4 +1,6 @@
-import { alternatingCharacters } from './alternatingCharacters';
+import {
+  alternatingCharacters
+} from './alternatingCharacters';
 
 describe('alternatingCharacters', () => {
   it('returns an array of integers representing the minimum number of deletions to make the alternating string for each string in array', () => {

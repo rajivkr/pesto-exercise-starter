@@ -6,4 +6,6 @@ const sumEvenArgs = (...args) =>
     0
   );
 
-export { sumEvenArgs };
+export {
+  sumEvenArgs
+};

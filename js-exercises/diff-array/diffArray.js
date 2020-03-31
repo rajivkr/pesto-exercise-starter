@@ -1,4 +1,4 @@
-function diffArray(arr1, arr2) {
+const diffArray = (arr1, arr2) => {
   const s1 = new Set(arr1);
   const s2 = new Set(arr2);
 
@@ -10,6 +10,8 @@ function diffArray(arr1, arr2) {
   }
 
   return [...Array.from(s1), ...Array.from(s2)];
-}
+};
 
-export { diffArray };
+export {
+  diffArray
+};
