@@ -28,4 +28,10 @@ function forEach(array, cb) {
     cb(array[i]);
   }
 }
-export { forEach, map, filter, reduce };
+
+export {
+  forEach,
+  map,
+  filter,
+  reduce
+};

@@ -1,4 +1,6 @@
-import { curry } from './curry';
+import {
+  curry
+} from './curry';
 
 describe('curry', () => {
   test('curries the function at least once', () => {

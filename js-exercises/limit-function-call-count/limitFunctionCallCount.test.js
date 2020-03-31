@@ -1,4 +1,6 @@
-import { limitFunctionCallCount } from './limitFunctionCallCount';
+import {
+  limitFunctionCallCount
+} from './limitFunctionCallCount';
 
 describe('limitFunctionCallCount', () => {
   it('should return a function', () => {

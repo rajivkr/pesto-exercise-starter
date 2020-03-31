@@ -1,4 +1,6 @@
-import { cacheFunction } from './cacheFunction';
+import {
+  cacheFunction
+} from './cacheFunction';
 
 describe('cacheFunction', () => {
   it('should return a function', () => {

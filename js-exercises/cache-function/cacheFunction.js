@@ -13,4 +13,6 @@ const memoizer = (funcToCall, keyMaker = JSON.stringify) => {
 
 const cacheFunction = inputFunction => memoizer(inputFunction);
 
-export { cacheFunction };
+export {
+  cacheFunction
+};
