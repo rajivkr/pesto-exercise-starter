@@ -1,4 +1,4 @@
-function sumAll(twoNums) {
+const sumAll = (twoNums) => {
   let [lowerBound, upperBound] = twoNums;
   let sum = 0;
   if (lowerBound > upperBound) {
@@ -8,6 +8,8 @@ function sumAll(twoNums) {
     sum += i;
   }
   return sum;
-}
+};
 
-export { sumAll };
+export {
+  sumAll
+};
