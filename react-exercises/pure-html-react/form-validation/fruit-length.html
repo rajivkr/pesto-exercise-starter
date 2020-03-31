@@ -12,7 +12,8 @@
     <label for="fruits">
       Would you prefer a banana or a cherry?
     </label>
-    <input type="text" name="fruit" id="fruit-preferred" label="fruits" required="true" minlength="6">
+    <input type="text" name="fruit" id="fruit-preferred" label="fruits" required="true" minlength="6"
+      pattern="[banana|cherry]{6}" title="Either banana or cherry">
     <button type="submit">Submit</button>
   </form>
 </body>
