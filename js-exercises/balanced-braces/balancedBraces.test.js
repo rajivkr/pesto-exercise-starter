@@ -1,4 +1,6 @@
-import { balancedBraces } from './balancedBraces';
+import {
+  balancedBraces
+} from './balancedBraces';
 
 describe('Braces / Brackets / Parentheses', () => {
   test('should tell correctly whether braces opened and closed properly', () => {

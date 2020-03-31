@@ -2,12 +2,11 @@ const animalSort = (animalsList = []) => {
   if (animalsList.length < 1) return [];
 
   return animalsList.sort((animalObj1, animalObj2) => {
-    // eslint-disable-next-line operator-linebreak
-    const differenceInLegsCount =
+    const differenceInLegCount =
       animalObj1.numberOfLegs - animalObj2.numberOfLegs;
 
-    if (differenceInLegsCount !== 0) {
-      return differenceInLegsCount;
+    if (differenceInLegCount !== 0) {
+      return differenceInLegCount;
     }
 
     const animal1Name = animalObj1.name,

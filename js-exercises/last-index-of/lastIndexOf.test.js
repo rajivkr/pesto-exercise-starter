@@ -1,4 +1,6 @@
-import { lastIndexOf } from './lastIndexOf';
+import {
+  lastIndexOf
+} from './lastIndexOf';
 
 describe('lastIndexOf', () => {
   it("returns a number indicating an object's last position in a list", () => {
