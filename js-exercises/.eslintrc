@@ -9,6 +9,7 @@
     "import/prefer-default-export": 0,
     "comma-dangle": 0,
     "no-plusplus": 0,
+    "arrow-body-style": 0,
     "one-var-declaration-per-line": 0,
     "no-param-reassign": 0,
     "implicit-arrow-linebreak": 0,
