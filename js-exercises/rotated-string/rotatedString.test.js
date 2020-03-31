@@ -1,4 +1,6 @@
-import { rotatedString } from './rotatedString';
+import {
+  rotatedString
+} from './rotatedString';
 
 describe('rotatedString', () => {
   it('rotatedString returns true for the given strings', () => {

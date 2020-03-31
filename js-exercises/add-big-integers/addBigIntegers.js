@@ -19,4 +19,6 @@ function addBigIntegers(inputStr = '') {
   return sumNumbers(inputStr.split('\n'));
 }
 
-export { addBigIntegers };
+export {
+  addBigIntegers
+};

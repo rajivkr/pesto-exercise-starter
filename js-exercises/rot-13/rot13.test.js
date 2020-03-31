@@ -1,4 +1,6 @@
-import { rot13 } from './rot13';
+import {
+  rot13
+} from './rot13';
 
 describe('rot13', () => {
   test('should correctly decipher the input', () => {

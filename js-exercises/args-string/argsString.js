@@ -1,11 +1,13 @@
 const argsString = (message = '', args = []) => {
-  if (message.includes('{}')) {
+  let updatedMessage = message;
+  if (updatedMessage.includes('{}')) {
     for (let i = 0; i < args.length; i++) {
-      // eslint-disable-next-line no-param-reassign
-      message = message.replace('{}', args[i]);
+      updatedMessage = updatedMessage.replace('{}', args[i]);
     }
   }
-  return message;
+  return updatedMessage;
 };
 
-export { argsString };
+export {
+  argsString
+};
