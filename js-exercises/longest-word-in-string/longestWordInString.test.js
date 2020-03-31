@@ -1,4 +1,6 @@
-import { longestWordInString } from './longestWordInString';
+import {
+  longestWordInString
+} from './longestWordInString';
 
 describe('longestWordInString', () => {
   test('should return a number', () => {

@@ -1,4 +1,6 @@
-import { telephoneCheck } from './telephoneCheck';
+import {
+  telephoneCheck
+} from './telephoneCheck';
 
 describe('telephoneCheck', () => {
   test('should return correct boolean', () => {
