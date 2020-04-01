@@ -1,13 +1,13 @@
-function isPrime(numToCheck) {
+const isPrime = (numToCheck) => {
   for (let j = 2; j < numToCheck; j++) {
     if (numToCheck % j === 0) {
       return false;
     }
   }
   return true;
-}
+};
 
-function sumPrimes(inputNum) {
+const sumPrimes = (inputNum) => {
   let sumOfPrimes = 0;
   let i;
   for (i = inputNum; i > 1; i--) {
@@ -16,6 +16,8 @@ function sumPrimes(inputNum) {
     }
   }
   return sumOfPrimes;
-}
+};
 
-export { sumPrimes };
+export {
+  sumPrimes
+};

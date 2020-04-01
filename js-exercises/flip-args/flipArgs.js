@@ -1,5 +1,5 @@
-function flipArgs(callback) {
+const flipArgs = (callback) => {
   return remainingArgs => callback(remainingArgs.reverse());
-}
+};
 
 export default flipArgs;

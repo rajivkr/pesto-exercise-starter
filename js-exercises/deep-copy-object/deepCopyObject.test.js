@@ -1,4 +1,6 @@
-import { deepCopyObject } from './deepCopyObject';
+import {
+  deepCopyObject
+} from './deepCopyObject';
 
 describe('deepCopyObject', () => {
   it('returns a deep copy of given object', () => {

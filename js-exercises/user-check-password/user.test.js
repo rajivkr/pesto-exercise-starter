@@ -1,4 +1,6 @@
-import { User } from './user';
+import {
+  User
+} from './user';
 
 describe('User', () => {
   test('should return an object with the passed username and password when called with new', () => {

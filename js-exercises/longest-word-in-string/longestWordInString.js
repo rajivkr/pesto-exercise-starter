@@ -1,6 +1,8 @@
-function longestWordInString(input) {
-  return typeof input !== 'string'
-    ? ''
-    : input.split(' ').sort((a, b) => b.length - a.length)[0].length;
-}
-export { longestWordInString };
+const longestWordInString = (wordInput) => {
+  return typeof wordInput !== 'string' ? '' :
+    wordInput.split(' ').sort((a, b) => b.length - a.length)[0].length;
+};
+
+export {
+  longestWordInString
+};

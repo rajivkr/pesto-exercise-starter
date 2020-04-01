@@ -1,4 +1,3 @@
-/* eslint-disable comma-dangle */
 function permutateWithoutRepetitions(arrToPermute) {
   const permutingArr = [];
 
@@ -17,4 +16,6 @@ function permutateWithoutRepetitions(arrToPermute) {
   return permutingArr;
 }
 
-export { permutateWithoutRepetitions };
+export {
+  permutateWithoutRepetitions
+};

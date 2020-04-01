@@ -1,4 +1,9 @@
-import { forEach, filter, map, reduce } from './arrayUtils';
+import {
+  forEach,
+  filter,
+  map,
+  reduce
+} from './arrayUtils';
 
 describe('array methods', () => {
   const inputArr = [1, 2, 3, 4];

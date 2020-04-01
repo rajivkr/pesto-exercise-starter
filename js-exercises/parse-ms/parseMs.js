@@ -15,4 +15,6 @@ const parseMs = milliSeconds => {
   };
 };
 
-export { parseMs };
+export {
+  parseMs
+};

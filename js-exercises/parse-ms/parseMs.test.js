@@ -1,4 +1,6 @@
-import { parseMs } from './parseMs';
+import {
+  parseMs
+} from './parseMs';
 
 describe('parseMs', () => {
   it('should throw error if input is not number', () => {

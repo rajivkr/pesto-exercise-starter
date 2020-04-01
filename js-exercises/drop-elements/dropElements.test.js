@@ -1,4 +1,6 @@
-import { dropElements } from './dropElements';
+import {
+  dropElements
+} from './dropElements';
 
 describe('dropElements', () => {
   test('should return the correct output', () => {

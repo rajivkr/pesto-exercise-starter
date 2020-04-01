@@ -8,4 +8,6 @@ const limitFunctionCallCount = (cb, maxNumberOfCallsAllowed) => {
   };
 };
 
-export { limitFunctionCallCount };
+export {
+  limitFunctionCallCount
+};

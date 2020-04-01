@@ -1,4 +1,6 @@
-import { argsString } from './argsString';
+import {
+  argsString
+} from './argsString';
 
 describe('argsString', () => {
   it('argsString does this thing...', () => {

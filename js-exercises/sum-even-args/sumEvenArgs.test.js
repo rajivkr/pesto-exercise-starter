@@ -1,4 +1,6 @@
-import { sumEvenArgs } from './sumEvenArgs';
+import {
+  sumEvenArgs
+} from './sumEvenArgs';
 
 describe('sumEvenArgs', () => {
   test('returns the sum of even arguments passed to the function', () => {

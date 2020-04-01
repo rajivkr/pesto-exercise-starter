@@ -1,4 +1,6 @@
-import { updateObject } from './updateObject';
+import {
+  updateObject
+} from './updateObject';
 
 describe('updateObject', () => {
   it('should replace values inside array', () => {

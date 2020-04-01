@@ -1,4 +1,6 @@
-import { removeFalsyValues } from './removeFalsyValues';
+import {
+  removeFalsyValues
+} from './removeFalsyValues';
 
 describe('removeFalsyValues', () => {
   test('should remove all falsy values from an array.', () => {

@@ -1,6 +1,8 @@
-import { isString } from 'util';
+import {
+  isString
+} from 'util';
 
-function abbreviateString(inputString = '') {
+const abbreviateString = (inputString = '') => {
   if (isString(inputString)) {
     const splitStrings = inputString.trim().split(' ');
     if (splitStrings.length > 1) {
@@ -11,6 +13,8 @@ function abbreviateString(inputString = '') {
     return splitStrings[0];
   }
   throw new Error('Not a string');
-}
+};
 
-export { abbreviateString };
+export {
+  abbreviateString
+};
