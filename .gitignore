@@ -67,3 +67,5 @@ typings/
 .next
 
 question.txt
+# Local Netlify folder
+.netlify

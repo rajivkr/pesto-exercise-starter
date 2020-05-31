@@ -1,0 +1,14 @@
+{
+  "1": {
+    "name": "Milk",
+    "units": "Litre"
+  },
+  "2": {
+    "name": "Salt",
+    "units": "Kg"
+  },
+  "3": {
+    "name": "Sugar",
+    "units": "Kg"
+  }
+}
